@@ -1,6 +1,6 @@
 {
   "name": "tiny-flag-react",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A react component for displaying flags (as emoji or images)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
