@@ -1,6 +1,6 @@
 {
   "name": "tiny-flag-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react component for displaying flags (as emoji or images)",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -20,7 +20,6 @@
   "homepage": "https://github.com/benaubin/tiny-flag-react#readme",
   "dependencies": {
     "emoji-supported": "^1.0.0",
-    "react": "^16.13.1",
     "tiny-flag": "^1.0.2"
   },
   "peerDependencies": {
