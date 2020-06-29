@@ -1,0 +1,37 @@
+{
+  "name": "tiny-flag-react",
+  "version": "1.0.0",
+  "description": "A react component for displaying flags (as emoji or images)",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benaubin/tiny-flag-react.git"
+  },
+  "author": "Ben Aubin (benaubin.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benaubin/tiny-flag-react/issues"
+  },
+  "homepage": "https://github.com/benaubin/tiny-flag-react#readme",
+  "dependencies": {
+    "emoji-supported": "^1.0.0",
+    "react": "^16.13.1",
+    "tiny-flag": "^1.0.2"
+  },
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^5.0.1",
+    "@types/node": "^14.0.14",
+    "@types/react": "^16.9.41",
+    "rollup": "^2.18.1",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.5"
+  }
+}
