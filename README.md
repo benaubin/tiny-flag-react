@@ -20,7 +20,7 @@ import TinyFlag from "tiny-flag";
 
 <TinyFlag
   country="US" // ISO 3166-1 alpha-2 code
-  countryName="United States" // Used as the image alt tag
+  alt="United States Flag" // Used as the image alt tag
   fallbackImageURL="https://cdn.jsdelivr.net/npm/react-flagkit@1.0.2/img/SVG/US.svg" // Used when emoji flags are not supported.
 />;
 ```
